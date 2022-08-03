@@ -1,0 +1,412 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color:black;
+    width: 100%;
+}
+
+.navbar{
+    position: sticky;
+    height: 76px;
+    background-color: rgb(91, 88, 88);
+}
+.navbar p{
+    display: inline;
+}
+
+.navbar li{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* left: ; */
+    bottom: 65px;
+    flex-direction: column;
+    /* height: 20%; */
+    /* height: 80px; */
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li h3{
+    /* padding: 10px 10px; */
+    float: left;
+}
+.navbar li{
+    padding: 10px 10px;
+    float:right;
+    list-style: none;
+}
+.navbar li a{
+
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: lightgrey;
+}
+
+
+#div1{
+    position: relative;
+    /* left: 30px; */
+    /* right: -60px; */
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    background-color: rgb(18, 17, 17);
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=1380&t=st=1658682642~exp=1658683242~hmac=7c3d1eeeab95e537390e161369b0f393699c8f59f10c0d67d1b1e223fcd02939');
+}
+
+#div1 h1{
+    color: white;
+}
+#div1 h1{
+    position: relative;
+    top: 150px;
+    left: 50px;
+   
+}
+
+
+#div1 h2{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    color:lightslategrey;
+    /* padding: 10px; */
+
+}
+#div2 p{
+    display: inline;
+    top: -250px;
+    left: 50px;
+    height: 50px;
+    /* background-color: bisque; */
+    color:white;
+    position: relative;
+    
+}
+
+
+#div1 img{
+    object-fit: cover;
+    position:relative;
+    
+    /* top: -43%; */
+    bottom: 75px;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+#div2 button{
+    position: relative;
+    top: -215px;
+    left: -225px;
+    background-color: gray;
+    height: 30px;
+    border-radius: 5px;
+}
+#div2 button:hover{
+    background-color: lightgrey;
+    /* box-shadow: 9px; */
+}
+
+#div3{
+    position: relative;
+    top: -19px;
+    width: 100%;
+    background-color: lightblue;
+    height: 480px;
+    background-image: url('https://t3.ftcdn.net/jpg/02/31/49/96/360_F_231499602_PrPBtjla4R6KgdTnBpTgyyCJ2br7Tjpj.jpg');
+}
+
+#div4{
+    position: relative;
+    color: white;
+    /* background-color: purple; */
+    /* display: inline; */
+    width: 50%;
+    height: auto;
+    left: 500px;
+    bottom: 420px;
+}
+
+#div4 h2{
+    position: relative;
+    left: 230px;
+    
+    /* left: 750px;
+    bottom: 400px; */
+    
+}
+
+.icons{
+    position: absolute;
+    left: 80px;
+    /* border: 2px solid red; */
+    height: 140px;
+    width: 80%;
+    background-color: white;
+    background-image: url('https://media.istockphoto.com/photos/abstract-background-with-smooth-waves-in-shades-of-black-picture-id1303053462?b=1&k=20&m=1303053462&s=170667a&w=0&h=vVInd2QsCvLDm5TlekY_GGRM8qsZDqBvVG7EMcrjddg=');
+}
+
+.icons:hover{
+    background-color: lightgray;
+}
+
+.icons h3{
+    position: absolute;
+    /* right: 30px; */
+    left: 90px;
+}
+.icons ul{
+    list-style: none;
+    display: inline-flex;
+    /* padding: 10px; */
+    justify-content: center;
+    
+}
+
+.icons li{
+    padding: 10px;
+    position: relative;
+    right: 50px;
+}
+
+.imgg{
+    height: 50px;
+}
+#div3-1st-img{
+    object-fit: cover;
+    height: 430px;
+    width: 400px;
+    position: relative;
+    top:25px;
+    left: 30px;
+}
+
+.imgg:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.150 );
+}
+
+.portfo{
+    /* border: 2px solid red; */
+    position: relative;
+    color: whitesmoke;
+}
+
+
+.portfo h1{
+    font-weight: bold;
+    /* display: inline-block */
+    position: absolute;
+    top: -15px;
+    left: 43%;
+}
+
+#work1{
+    position: relative;
+    top: 80px;
+    left: 3%;
+    height: 30%;
+    width: 40%;
+}
+
+#work1:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.150 );
+    box-shadow: 10px 10px 10px 2px grey;
+}
+
+#work2{
+    position: relative;
+    top: 90px;
+    left: 220px;
+    height: 20%;
+    width: 40%;
+}
+
+#work2:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.150 );
+    box-shadow: 10px 10px 10px 2px grey;
+}
+
+#work3{
+    position: relative;
+    top: 150px;
+    left: 3%;
+    height: 30%;
+    width: 40%;
+}
+
+#work3:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.150 );
+    box-shadow: 10px 10px 10px 2px grey;
+}
+
+#work4{
+    position: relative;
+    top: 90px;
+    left: 220px;
+    height: 40%;
+    width: 40%;
+}
+
+#work4:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.125 );
+    box-shadow: 10px 10px 10px 2px grey;
+}
+
+#work5{
+    position: relative;
+    top: 160px;
+    left: 30%;
+    height: 60%;
+    width: 40%;
+    object-fit: cover;
+}
+
+#work5:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.150 );
+    box-shadow: 10px 10px 10px 2px grey;
+}
+
+.resume{
+    position: relative;
+    top: 200px;
+    /* border: 2px solid red; */
+    background-image: url('https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JheSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+    color: white;
+    height: 650px;
+}
+
+.resume h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.resume h4{
+    position: relative;
+    top:-10px;
+}
+
+.content{
+    width: 50%;
+    position: relative;
+    top: 2%;
+    left: 3%;
+}
+
+#h2re{
+    position: relative;
+    /* top:-33px; */
+}
+
+.con-btn{
+    position: relative;
+    left: 200px;
+    height: 40px;
+    width: 80px;
+    /* padding: 20px; */
+}
+.con-btn1{
+    position: relative;
+    left:340px;
+    height: 40px;
+    width: 80px;
+    /* padding: 20px; */
+}
+
+#resume-img1{
+    position: relative;
+    left: 65%;
+    height: 30%;
+    width: 30%;
+    bottom: 420px;
+}
+#resume-img2{
+    position: relative;
+    left: 35%;
+    height: 30%;
+    width: 29%;
+    bottom: 180px;
+}
+
+.content button:hover{
+    background-color: lightgrey;
+}
+
+.contact{
+    background-color: rgb(117, 113, 113);
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+.contact h1{
+    position: relative;
+    /* left: 300px; */
+    text-align: center;
+}
+
+#connect{
+    /* border: 2px solid red; */
+    width: 40%;
+    position: relative;
+    left: 30px;
+    top:5px;
+    height: 600px;
+}
+
+#connect ul li{
+    list-style-type: none;
+}
+
+#connect img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: -35px;
+}
+
+#connect li{
+    padding: 10px;
+}
+
+#connect a{
+    color: white;
+    /* padding: px; */
+}
+
+#connect a:hover{
+    color: gray;
+}
+
+.form1{
+    width: 100%;
+    /* height:600px; */
+    position: relative;
+    left: 150%;
+    bottom: 400px;
+
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* flex-direction: ; */
+}
+
+.form1 form{
+    display: block;
+}
